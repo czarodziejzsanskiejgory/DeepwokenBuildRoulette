@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Deepwoken Build Roulette is a web application designed to help players of the game Deepwoken generate random builds for their characters. It offers a variety of options, including weapons, offhands, enchants, attunements, oaths, resonances, aspects, and origins. The application features a user-friendly interface with a navigation menu and interactive buttons for rolling and locking different build components. Whether you're looking for inspiration or want to challenge yourself with random builds, Deepwoken Build Roulette has you covered.">
+    <meta name="keywords" content="deepwoken, roblox, deepwoken roblox, deepwoken build, deepwoken roulette, deepwoken random, dw roulette, deepwoken random, deepwoken random build, deepwoken random roulette, deepwoken build roulette, deepwoken builder, build maker, deepwoken build maker, dw build maker, dw build">
+    <meta name="author" content="Your Name">
+    <title>Deepwoken Build Roulette</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts/data.js"></script>
+    <script src="scripts/main.js"></script>
+</head>
+<body>
+    
+    <nav id="side-menu" class="hidden">
+        <h2>Navigation</h2>
+        <hr>
+        <div id="menu-roulette" class="nav-option">Roulette</div>
+        <div id="menu-discord" class="nav-option"><a href="https://discord.gg/2CKKb77QdM" target="_blank">Discord</a></div>
+        <div id="menu-about-me" class="nav-option">About Me(Coming soon)</div>
+        <div id="support-me" class="nav-option">Support Me (Coming soon)</div>
+    </nav>
+    <header><button id="menu-button" onclick="toggleMenu()"><img src="images/menu.png"></button>
+        <img src="images/favicon.png" alt="Favicon" id="logo">
+        Deepwoken Build Roulette
+    </header>
+    <main>
+        <!--Main navigation menu-->
+        <section id="mainmenu">
+            <div id="menu-main">
+                <h2>Can’t decide what to play?
+            Roll a Build and let Deepwoken’s tides choose your path.
+            Random oaths, attunements, and weapons — fresh every roll.
+                </h2>
+                <button>Roll a Build</button>
+            </div>
+            <div id="menu-buttons">
+                <button>Weapons</button>
+                <button>Offhands</button>
+                <button>Enchants</button>
+                <button>Attunements</button>
+                <button>Secondary Attunements</button>
+                <button>Oaths</button>
+                <button>Resonances</button>
+                <button>Murmurs</button>
+                <button>Origins</button>
+                <button>Aspects</button>
+            </div>
+        </section>
+        <!--Columns-->
+        <section id="content">
+            <div id="cweapons" class="content-column">
+                <div class="cimage"></div>
+                <div class="ctext"></div>
+                <div class="cbutton">
+                    <button>Roll Weapon</button>
+                    <hr>
+                    <button>Lock Weapon</button>
+                </div>
+            </div>
+            <div id="coffhands" class="content-column">
+                <div class="cimage"></div>
+                <div class="ctext"></div>
+                <div class="cbutton">
+                    <button>Roll Offhand</button>
+                    <hr>
+                    <button>Lock Offhand</button>
+                </div>
+            </div>
+            <div id="cenchants" class="content-column">
+                <div class="cimage"></div>
+                <div class="ctext"></div>
+                <div class="cbutton">
+                    <button>Roll Enchant</button>
+                    <hr>
+                    <button>Lock Enchant</button>
+                </div>
+            </div>
+            <div id="cattunements" class="content-column">
+                <div class="cimage"></div>
+                <div class="ctext"></div>
+                <div class="cbutton">
+                    <button>Roll Attunement</button>
+                    <hr>
+                    <button>Lock Attunement</button>
+                </div>
+            </div>
+            <div id="csecondaryattunements" class="content-column">
+                <div class="cimage"></div>
+                <div class="ctext"></div>
+                <div class="cbutton">
+                    <button>Roll Secondary Attunement</button>
+                    <hr>
+                    <button>Lock Secondary Attunement</button>
+                </div>
+            </div>
+            <div id="coaths" class="content-column">
+                <div class="cimage"></div>
+                <div class="ctext"></div>
+                <div class="cbutton">
+                    <button>Roll Oath</button>
+                    <hr>
+                    <button>Lock Oath</button>
+                </div>
+            </div>
+            <div id="cresonances" class="content-column">
+                <div class="cimage"></div>
+                <div class="ctext"></div>
+                <div class="cbutton">
+                    <button>Roll Resonance</button>
+                    <hr>
+                    <button>Lock Resonance</button>
+                </div>
+            </div>
+            <div id="cmurmurs" class="content-column">
+                <div class="cimage"></div>
+                <div class="ctext"></div>
+                <div class="cbutton">
+                    <button>Roll Murmur</button>
+                    <hr>
+                    <button>Lock Murmur</button>
+                </div>
+            </div>
+            <div id="corigins" class="content-column">
+                <div class="cimage"></div>
+                <div class="ctext"></div>
+                <div class="cbutton">
+                    <button>Roll Origin</button>
+                    <hr>
+                    <button>Lock Origin</button>
+                </div>
+            </div>
+            <div id="caspects" class="content-column">
+                <div class="cimage"></div>
+                <div class="ctext"></div>
+                <div class="cbutton">
+                    <button>Roll Aspect</button>
+                    <hr>
+                    <button>Lock Aspect</button>
+                </div>
+            </div>
+        </section>
+        <img src="images/destroyman.png" alt="Thank you for using my website!" id="destroyman-image">
+    </main>
+
+</body>
+</html>
