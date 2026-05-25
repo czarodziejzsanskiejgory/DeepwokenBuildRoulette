@@ -16,7 +16,7 @@ const gameData = {
         { name: "Greatswords", img: "images/weapons/greatsword.png", text: "Greatswords" },
         { name: "Greathammers", img: "images/weapons/greathammer.png", text: "Greathammers" },
         { name: "Greatcannons", img: "images/weapons/greatcannon.png", text: "Greatcannons" },
-        { name: "Elemental", img: "images/Placeholder.png", text: "Elemental" }
+        { name: "Elemental", img: "images/placeholder.png", text: "Elemental" }
     ] },
 
     //Offhands
@@ -24,23 +24,23 @@ const gameData = {
         { name: "Shield", img: "images/offhands/shield.png", text: "Shield" },
         { name: "Parrying Dagger", img: "images/weapons/dagger.png", text: "Parrying Dagger" },
         { name: "Side guns", img: "images/weapons/gun.png", text: "Side guns" },
-        { name: "None", img: "images/Placeholder.png", text: "None" }
+        { name: "None", img: "images/placeholder.png", text: "None" }
     ] },
 
     //Enchants
     enchants: { items: [
-        { name: "Astral", img: "images/Placeholder.png", text: "Astral" },
+        { name: "Astral", img: "images/placeholder.png", text: "Astral" },
         { name: "Blazing", img: "images/enchants/blazing.png", text: "Blazing" },
-        { name: "Bluster", img: "images/Placeholder.png", text: "Bluster" },
+        { name: "Bluster", img: "images/placeholder.png", text: "Bluster" },
         { name: "Chilling", img: "images/enchants/chilling.png", text: "Chilling" },
         { name: "Curse of the Authoritative", img: "images/enchants/authoritative.png", text: "Curse of the Authoritative" },
         { name: "Curse of the Bloodthirsty", img: "images/enchants/bloodthirsty.png", text: "Curse of the Bloodthirsty" },
-        {name: "Curse of the Captain Greene", img: "images/Placeholder.png", text: "Curse of the Captain Greene" },
+        {name: "Curse of the Captain Greene", img: "images/placeholder.png", text: "Curse of the Captain Greene" },
         { name: "Curse of the No Life King", img: "images/enchants/nlk.png", text: "Curse of the No Life King" },
         { name: "Curse of Repulsion", img: "images/enchants/repulsion.png", text: "Curse of Repulsion" },
         { name: "Curse of the Unbidden", img: "images/enchants/unbidden.png", text: "Curse of the Unbidden" },
         { name: "Curse of Void", img: "images/enchants/void.png", text: "Curse of Void" },
-        { name: "Curse of Ysley's Ember", img: "images/Placeholder.png", text: "Curse of Ysley's Ember" },
+        { name: "Curse of Ysley's Ember", img: "images/placeholder.png", text: "Curse of Ysley's Ember" },
         { name: "Curse of the Yun'Shul", img: "images/enchants/yunshul.png", text: "Curse of the Yun'Shul" },
         { name: "Deferred", img: "images/enchants/deferred.png", text: "Deferred" },
         { name: "Detonation", img: "images/enchants/detonation.png", text: "Detonation" },
@@ -49,14 +49,14 @@ const gameData = {
         { name: "Grim", img: "images/enchants/grim.png", text: "Grim" },
         { name: "Harrowing", img: "images/enchants/harrowing.png", text: "Harrowing" },
         { name: "Heroism", img: "images/enchants/heroism.png", text: "Heroism" },
-        { name: "Kyrsan Chill", img: "images/Placeholder.png", text: "Kyrsan Chill" },
+        { name: "Kyrsan Chill", img: "images/placeholder.png", text: "Kyrsan Chill" },
         { name: "Metal", img: "images/enchants/metal.png", text: "Metal" },
         { name: "Nemesis", img: "images/enchants/nemesis.png", text: "Nemesis" },
-        { name: "Nightbringer", img: "images/Placeholder.png", text: "Nightbringer" },
+        { name: "Nightbringer", img: "images/placeholder.png", text: "Nightbringer" },
         { name: "Obfuscation", img: "images/enchants/obfuscation.png", text: "Obfuscation" },
         { name: "Parasol's Blight", img: "images/enchants/parasol.png", text: "Parasol's Blight" },
         { name: "Providence's Thorn", img: "images/enchants/thorns.png", text: "Providence's Thorn" },
-        { name: "Sear", img: "images/Placeholder.png", text: "Sear" },
+        { name: "Sear", img: "images/placeholder.png", text: "Sear" },
         { name: "Solar", img: "images/enchants/solar.png", text: "Solar" },
         { name: "Stone", img: "images/enchants/stone.png", text: "Stone" },
         { name: "Storm", img: "images/enchants/storm.png", text: "Storm" },
@@ -101,7 +101,7 @@ const gameData = {
         { name: "Specter", img: "images/attunements/Specter.png", text: "Specter" },
         { name: "Scrapsinger", img: "images/attunements/Scrapsinger.png", text: "Scrapsinger" },
         { name: "Twisted Puppets", img: "images/attunements/Twisted Puppets.png", text: "Twisted Puppets" },
-        { name: "None", img: "images/Placeholder.png", text: "None" }
+        { name: "None", img: "images/placeholder.png", text: "None" }
 
     ] },
 
@@ -162,25 +162,25 @@ const gameData = {
 
      //Aspects
     aspects: { items: [
-        { name: "Adret", img: "images/Placeholder.png", text: "Adret" },
-        { name: "Canor", img: "images/Placeholder.png", text: "Canor" },
-        { name: "Capra", img: "images/Placeholder.png", text: "Capra" },
-        { name: "Celtor", img: "images/Placeholder.png", text: "Celtor" },
-        { name: "Chrysid", img: "images/Placeholder.png", text: "Chrysid" },
-        { name: "Etrean", img: "images/Placeholder.png", text: "Etrean" },
-        { name: "Felinor", img: "images/Placeholder.png", text: "Felinor" },
-        { name: "Ganymede", img: "images/Placeholder.png", text: "Ganymede" },
-        { name: "Gremor", img: "images/Placeholder.png", text: "Gremor" },
-        { name: "Khan", img: "images/Placeholder.png", text: "Khan" },
-        { name: "Kiron", img: "images/Placeholder.png", text: "Kiron" },
-        { name: "Tiran", img: "images/Placeholder.png", text: "Tiran" },
-        { name: "Vesperian", img: "images/Placeholder.png", text: "Vesperian" }
+        { name: "Adret", img: "images/placeholder.png", text: "Adret" },
+        { name: "Canor", img: "images/placeholder.png", text: "Canor" },
+        { name: "Capra", img: "images/placeholder.png", text: "Capra" },
+        { name: "Celtor", img: "images/placeholder.png", text: "Celtor" },
+        { name: "Chrysid", img: "images/placeholder.png", text: "Chrysid" },
+        { name: "Etrean", img: "images/placeholder.png", text: "Etrean" },
+        { name: "Felinor", img: "images/placeholder.png", text: "Felinor" },
+        { name: "Ganymede", img: "images/placeholder.png", text: "Ganymede" },
+        { name: "Gremor", img: "images/placeholder.png", text: "Gremor" },
+        { name: "Khan", img: "images/placeholder.png", text: "Khan" },
+        { name: "Kiron", img: "images/placeholder.png", text: "Kiron" },
+        { name: "Tiran", img: "images/placeholder.png", text: "Tiran" },
+        { name: "Vesperian", img: "images/placeholder.png", text: "Vesperian" }
     ] },
 
     //Murmurs
     murmurs: { items: [
-        { name: "Ardour", img: "images/Placeholder.png", text: "Ardour" },
-        { name: "Tacet", img: "images/Placeholder.png", text: "Tacet" },
-        { name: "Rhythm", img: "images/Placeholder.png", text: "Rhythm" }
+        { name: "Ardour", img: "images/placeholder.png", text: "Ardour" },
+        { name: "Tacet", img: "images/placeholder.png", text: "Tacet" },
+        { name: "Rhythm", img: "images/placeholder.png", text: "Rhythm" }
     ]}
 };
