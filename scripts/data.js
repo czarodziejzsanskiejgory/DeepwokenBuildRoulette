@@ -123,7 +123,7 @@ const gameData = {
         { name: "Silentheart", img: "images/oaths/silentheart.png", text: "Silentheart" },
         { name: "Soulbreaker", img: "images/oaths/soulbreaker.png", text: "Soulbreaker" },
         { name: "Starkindred", img: "images/oaths/starkindred.png", text: "Starkindred" },
-        { name: "Visionshaper", img: "images/oaths/visionshaper.png", text: "Visionshaper" }
+        { name: "Visionshaper", img: "images/oaths/visionshaper.png", text: "Visionshaper" },
     ] },
 
     //Resonances

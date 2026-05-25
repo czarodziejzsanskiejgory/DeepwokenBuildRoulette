@@ -102,7 +102,153 @@ async function animateRoll(columnId, finalItem) {
     // final
     if (imageDiv) imageDiv.style.backgroundImage = `url("${finalItem.image || finalItem.img}")`;
     if (textDiv) textDiv.textContent = finalItem.text || finalItem.name || '';
-}
+    await new Promise(r => setTimeout(r, 1)); // slight pause on final item
+    if (columnId === 'coaths' && finalItem.name === 'Silentheart') {
+        // Force Attunements to "Attunement-less"
+        const attunementCol = document.getElementById('cattunements');
+        if (attunementCol) {
+            const attunementImg = attunementCol.querySelector('.cimage');
+            const attunementTxt = attunementCol.querySelector('.ctext');
+            if (attunementImg) attunementImg.style.backgroundImage = 'url("images/placeholder.png")';
+            if (attunementTxt) attunementTxt.textContent = 'None';
+        }
+
+        // Force Secondary Attunements to "None"
+        const secAttunementCol = document.getElementById('csecondaryattunements');
+        if (secAttunementCol) {
+            const secAttunementImg = secAttunementCol.querySelector('.cimage');
+            const secAttunementTxt = secAttunementCol.querySelector('.ctext');
+            if (secAttunementImg) secAttunementImg.style.backgroundImage = 'url("images/placeholder.png")';
+            if (secAttunementTxt) secAttunementTxt.textContent = 'None';
+        }
+    }
+    if (columnId === 'cweapons' && finalItem.name === 'Elemental') {
+        //Force Enchants to "None"
+        const enchantCol = document.getElementById('cenchants');
+        if (enchantCol) {
+            const enchantImg = enchantCol.querySelector('.cimage');
+            const enchantTxt = enchantCol.querySelector('.ctext');
+            if (enchantImg) enchantImg.style.backgroundImage = 'url("images/placeholder.png")';
+            if (enchantTxt) enchantTxt.textContent = 'None';
+        }
+    }
+    if (columnId === 'cweapons' && finalItem.name === 'Rifles') {
+        //Force Offhands to "None"
+        const offhandsCol = document.getElementById('coffhands');
+        if (offhandsCol) {
+            const offhandsImg = offhandsCol.querySelector('.cimage');
+            const offhandsTxt = offhandsCol.querySelector('.ctext');
+            if (offhandsImg) offhandsImg.style.backgroundImage = 'url("images/placeholder.png")';
+            if (offhandsTxt) offhandsTxt.textContent = 'None';
+        }
+    }
+    if (columnId === 'cweapons' && finalItem.name === 'Bows') {
+        //Force Offhands to "None"
+        const offhandsCol = document.getElementById('coffhands');
+        if (offhandsCol) {
+            const offhandsImg = offhandsCol.querySelector('.cimage');
+            const offhandsTxt = offhandsCol.querySelector('.ctext');
+            if (offhandsImg) offhandsImg.style.backgroundImage = 'url("images/placeholder.png")';
+            if (offhandsTxt) offhandsTxt.textContent = 'None';
+        }
+    }
+    if (columnId === 'cattunements' && finalItem.name === 'Frostdraw' ||  finalItem.name === 'Crystalization') {
+            
+            // Force Secondary Attunements to "None"
+            const secAttunementCol = document.getElementById('csecondaryattunements');
+            const secAttunementValue = secAttunementCol ? secAttunementCol.querySelector('.ctext')?.textContent : null;
+            if (secAttunementCol && secAttunementValue=='Crystalization') {
+                const secAttunementImg = secAttunementCol.querySelector('.cimage');
+                const secAttunementTxt = secAttunementCol.querySelector('.ctext');
+                if (secAttunementImg) secAttunementImg.style.backgroundImage = 'url("images/placeholder.png")';
+                if (secAttunementTxt) secAttunementTxt.textContent = 'None';
+            }
+            if (secAttunementCol && secAttunementValue=='Frostdraw') {
+                const secAttunementImg = secAttunementCol.querySelector('.cimage');
+                const secAttunementTxt = secAttunementCol.querySelector('.ctext');
+                if (secAttunementImg) secAttunementImg.style.backgroundImage = 'url("images/placeholder.png")';
+                if (secAttunementTxt) secAttunementTxt.textContent = 'None';
+            }
+        }
+    if (columnId === 'cattunements' && finalItem.name === 'Galebreath' ||  finalItem.name === 'Specter') {
+            
+            // Force Secondary Attunements to "None"
+            const secAttunementCol = document.getElementById('csecondaryattunements');
+            const secAttunementValue = secAttunementCol ? secAttunementCol.querySelector('.ctext')?.textContent : null;
+            if (secAttunementCol && secAttunementValue=='Specter') {
+                const secAttunementImg = secAttunementCol.querySelector('.cimage');
+                const secAttunementTxt = secAttunementCol.querySelector('.ctext');
+                if (secAttunementImg) secAttunementImg.style.backgroundImage = 'url("images/placeholder.png")';
+                if (secAttunementTxt) secAttunementTxt.textContent = 'None';
+            }
+            if (secAttunementCol && secAttunementValue=='Galebreath') {
+                const secAttunementImg = secAttunementCol.querySelector('.cimage');
+                const secAttunementTxt = secAttunementCol.querySelector('.ctext');
+                if (secAttunementImg) secAttunementImg.style.backgroundImage = 'url("images/placeholder.png")';
+                if (secAttunementTxt) secAttunementTxt.textContent = 'None';
+            }
+        }
+    if (columnId === 'cattunements' && finalItem.name === 'Thundercall' ||  finalItem.name === 'Unstable Capacitor') {
+            
+            // Force Secondary Attunements to "None"
+            const secAttunementCol = document.getElementById('csecondaryattunements');
+            const secAttunementValue = secAttunementCol ? secAttunementCol.querySelector('.ctext')?.textContent : null;
+            if (secAttunementCol && secAttunementValue=='Unstable Capacitor') {
+                const secAttunementImg = secAttunementCol.querySelector('.cimage');
+                const secAttunementTxt = secAttunementCol.querySelector('.ctext');
+                if (secAttunementImg) secAttunementImg.style.backgroundImage = 'url("images/placeholder.png")';
+                if (secAttunementTxt) secAttunementTxt.textContent = 'None';
+            }
+            if (secAttunementCol && secAttunementValue=='Thundercall') {
+                const secAttunementImg = secAttunementCol.querySelector('.cimage');
+                const secAttunementTxt = secAttunementCol.querySelector('.ctext');
+                if (secAttunementImg) secAttunementImg.style.backgroundImage = 'url("images/placeholder.png")';
+                if (secAttunementTxt) secAttunementTxt.textContent = 'None';
+            }
+        }
+    if (columnId === 'cattunements' && finalItem.name === 'Ironsing' ||  finalItem.name === 'Scrapsinger') {
+            
+            // Force Secondary Attunements to "None"
+            const secAttunementCol = document.getElementById('csecondaryattunements');
+            const secAttunementValue = secAttunementCol ? secAttunementCol.querySelector('.ctext')?.textContent : null;
+            if (secAttunementCol && secAttunementValue=='Scrapsinger') {
+                const secAttunementImg = secAttunementCol.querySelector('.cimage');
+                const secAttunementTxt = secAttunementCol.querySelector('.ctext');
+                if (secAttunementImg) secAttunementImg.style.backgroundImage = 'url("images/placeholder.png")';
+                if (secAttunementTxt) secAttunementTxt.textContent = 'None';
+            }
+            if (secAttunementCol && secAttunementValue=='Ironsing') {
+                const secAttunementImg = secAttunementCol.querySelector('.cimage');
+                const secAttunementTxt = secAttunementCol.querySelector('.ctext');
+                if (secAttunementImg) secAttunementImg.style.backgroundImage = 'url("images/placeholder.png")';
+                if (secAttunementTxt) secAttunementTxt.textContent = 'None';
+            }
+        }
+    if (columnId === 'cattunements' && (finalItem.name === 'Flamecharm' || finalItem.name === 'Lava serpent' || finalItem.name === 'Twisted Puppets')) {
+            
+            // Force Secondary Attunements to "None"
+            const secAttunementCol = document.getElementById('csecondaryattunements');
+            const secAttunementValue = secAttunementCol ? secAttunementCol.querySelector('.ctext')?.textContent : null;
+            if (secAttunementCol && secAttunementValue=='Lava serpent') {
+                const secAttunementImg = secAttunementCol.querySelector('.cimage');
+                const secAttunementTxt = secAttunementCol.querySelector('.ctext');
+                if (secAttunementImg) secAttunementImg.style.backgroundImage = 'url("images/placeholder.png")';
+                if (secAttunementTxt) secAttunementTxt.textContent = 'None';
+            }
+            if (secAttunementCol && secAttunementValue=='Twisted Puppets') {
+                const secAttunementImg = secAttunementCol.querySelector('.cimage');
+                const secAttunementTxt = secAttunementCol.querySelector('.ctext');
+                if (secAttunementImg) secAttunementImg.style.backgroundImage = 'url("images/placeholder.png")';
+                if (secAttunementTxt) secAttunementTxt.textContent = 'None';
+            }
+            if (secAttunementCol && secAttunementValue=='Flamecharm') {
+                const secAttunementImg = secAttunementCol.querySelector('.cimage');
+                const secAttunementTxt = secAttunementCol.querySelector('.ctext');
+                if (secAttunementImg) secAttunementImg.style.backgroundImage = 'url("images/placeholder.png")';
+                if (secAttunementTxt) secAttunementTxt.textContent = 'None';
+            }
+        }
+    }
 
 function rollColumn(columnId) {
     debug(`rollColumn ${columnId}`);
