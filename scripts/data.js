@@ -107,23 +107,23 @@ const gameData = {
 
     //Oaths
     oaths: { items: [
-        { name: "Oathless", img: "images/oaths/Oathless.png", text: "Oathless" },
-        { name: "Arcwarder", img: "images/oaths/Arcwarder.png", text: "Arcwarder" },
-        { name: "Bladeharper", img: "images/oaths/Bladeharper.png", text: "Bladeharper" },
-        { name: "Blightsurger", img: "images/oaths/Blightsurger.png", text: "Blightsurger" },
-        { name: "Blindseer", img: "images/oaths/Blindseer.png", text: "Blindseer" },
-        { name: "Chainwarden", img: "images/oaths/Chainwarden.png", text: "Chainwarden" },
-        { name: "Contractor", img: "images/oaths/Contractor.png", text: "Contractor" },
-        { name: "Dawnwalker", img: "images/oaths/Dawnwalker.png", text: "Dawnwalker" },
-        { name: "Fadetrimmer", img: "images/oaths/Fadetrimmer.png", text: "Fadetrimmer" },
-        { name: "Jetstriker", img: "images/oaths/Jetstriker.png", text: "Jetstriker" },
-        { name: "Linkstrider", img: "images/oaths/Linkstrider.png", text: "Linkstrider" },
-        { name: "Saintsworn", img: "images/oaths/Saintsworn.png", text: "Saintsworn" },
-        { name: "Saltchemist", img: "images/oaths/Saltchemist.png", text: "Saltchemist" },
-        { name: "Silentheart", img: "images/oaths/Silentheart.png", text: "Silentheart" },
-        { name: "Soulbreaker", img: "images/oaths/Soulbreaker.png", text: "Soulbreaker" },
-        { name: "Starkindred", img: "images/oaths/Starkindred.png", text: "Starkindred" },
-        { name: "Visionshaper", img: "images/oaths/Visionshaper.png", text: "Visionshaper" }
+        { name: "Oathless", img: "images/oaths/oathless.png", text: "Oathless" },
+        { name: "Arcwarder", img: "images/oaths/arcwarder.png", text: "Arcwarder" },
+        { name: "Bladeharper", img: "images/oaths/bladeharper.png", text: "Bladeharper" },
+        { name: "Blightsurger", img: "images/oaths/blightsurger.png", text: "Blightsurger" },
+        { name: "Blindseer", img: "images/oaths/blindseer.png", text: "Blindseer" },
+        { name: "Chainwarden", img: "images/oaths/chainwarden.png", text: "Chainwarden" },
+        { name: "Contractor", img: "images/oaths/contractor.png", text: "Contractor" },
+        { name: "Dawnwalker", img: "images/oaths/dawnwalker.png", text: "Dawnwalker" },
+        { name: "Fadetrimmer", img: "images/oaths/fadetrimmer.png", text: "Fadetrimmer" },
+        { name: "Jetstriker", img: "images/oaths/jetstriker.png", text: "Jetstriker" },
+        { name: "Linkstrider", img: "images/oaths/linkstrider.png", text: "Linkstrider" },
+        { name: "Saintsworn", img: "images/oaths/saintsworn.png", text: "Saintsworn" },
+        { name: "Saltchemist", img: "images/oaths/saltchemist.png", text: "Saltchemist" },
+        { name: "Silentheart", img: "images/oaths/silentheart.png", text: "Silentheart" },
+        { name: "Soulbreaker", img: "images/oaths/soulbreaker.png", text: "Soulbreaker" },
+        { name: "Starkindred", img: "images/oaths/starkindred.png", text: "Starkindred" },
+        { name: "Visionshaper", img: "images/oaths/visionshaper.png", text: "Visionshaper" }
     ] },
 
     //Resonances
