@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css\styleaboutme.css">
+    <script>
+        function toggleMenu() {
+            const sideMenu = document.getElementById('side-menu');
+            if (sideMenu.classList.contains('hidden')) {
+                sideMenu.classList.remove('hidden');
+                sideMenu.classList.add('visible');
+            } else {
+                sideMenu.classList.remove('visible');
+                sideMenu.classList.add('hidden');
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <nav id="side-menu" class="hidden">
+        <h2>Navigation</h2>
+        <hr>
+        <div id="menu-roulette" class="nav-option">
+            <a href="index.html">Roulette</a></div>
+        <div id="menu-discord" class="nav-option"><a href="https://discord.gg/2CKKb77QdM" target="_blank">Discord</a>
+        </div>
+        <div id="menu-about-me" class="nav-option"><a href="aboutme.html">About Me</a></div>
+        <div id="menu-support-me" class="nav-option">Support Me (Coming soon)</div>
+    </nav>
+    <header><button id="menu-button" onclick="toggleMenu()"><img src="images/menu.png"></button>
+        <img src="images/favicon.png" alt="Favicon" id="logo">
+        Deepwoken Build Roulette
+    </header>
+    <main>
+        <div id="aboutme">
+            <h1>About Me</h1>
+            <hr>
+            <p> Hi, Im a 17-year-old Website dev from Poland and the only creator of this website. 
+                I'm studying programming for the past 3 years and mostly work with stuff like HTML, CSS, JS, PHP and SQL. 
+                I play Deepwoken since it came out and after 2500 hours of playtime I decided to make something for the community instead of letting my ideas go to waste. 
+                If anyone reading this has a question for me, feel free to contact me on Discord. My nickname is <b>tymoteusztwardyknykiec.</b>
+            </p>
+        </div>
+        <div id="aboutsite">
+            <h1>About the site</h1>
+            <hr>
+            <p> I've been working on this site since 2024, although I don't update it super often because I'm lazy.
+                The idea for it came up in my first year of learning programming. I was struggling to decide what builds to play in Deepwoken, so I decided to make a simple roulette-style tool for myself. 
+                Over time, that small idea slowly turned into a fully working website that I hope other people will actually find useful too.
+                I won't lie, the code isn't perfect or fully optimized. A lot of it was written when I had much less experience, and this is also my first bigger project like this. 
+                I' still learning and improving it as I go.
+                If you're interested, feel free to join the Discord so we can build a small community around it and improve the project together.
+            </p>
+        </div>
+    </main>
+</body>
+</html>
